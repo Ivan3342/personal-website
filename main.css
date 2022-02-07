@@ -1,0 +1,60 @@
+body {
+    background-color: #78b5ff;
+    text-align: center;
+    color: white; 
+    font-family: 'Cairo', sans-serif;
+    margin: 10pt;
+}
+
+#welcometxt {
+    font-size: 60pt;
+    margin-top: 15pt;
+    padding: 5pt;
+}
+p {
+    font-size: 15pt;
+}
+#srb {
+    color: white;
+}
+#footertxt {
+    background-color: #4297ff;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    margin: 0;
+    width: 100%;
+    padding: 10pt;
+}
+#aboutme {
+    background-color: #4297ff;
+    padding: 10pt;
+    border-radius: 2%;
+    border-width: 5pt;
+    border-style: solid;
+    border-color: white;
+    width: auto;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    margin-bottom: 65pt;
+}
+
+#srb:hover {
+    color: #bbf6fc;
+}
+
+#flexicons {
+    display: flex;
+    justify-content: center;
+    margin: 10pt;
+}
+#flexicons img {
+    width: 50px;
+}
+
+@media only screen and (min-width: 900px) {
+    #aboutme {
+        margin-right: 13vw;
+        margin-left: 13vw;
+    }
+}
